@@ -1,0 +1,21 @@
+* {
+    background: #1e1e1e;
+    margin: 0 auto;
+}
+
+.adminka {
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 30px;
+}
+
+.adminka a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.vod {
+    float: right;
+    margin: 0 auto;
+}

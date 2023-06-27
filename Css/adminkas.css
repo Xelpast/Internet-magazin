@@ -1,0 +1,24 @@
+* {
+    background: #435754;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.adminka {
+    color: white;
+}
+
+.adminka a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.adminka img {
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
