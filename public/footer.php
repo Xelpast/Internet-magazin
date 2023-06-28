@@ -9,7 +9,7 @@ $resul = $mains->fetch(PDO::FETCH_ASSOC);
         <div class="obsh">
             <b><?php echo $resul["text"]?></b><p>
             <a href="#"><img src="image/logot.jpg" alt="СМОТРИ ВНИМАТЕЛЬНЕЙ" class="logo"></a>
-            <a href="inputadm.php">&#169;</a> Друзья берегите деревья!</p>
+            <a href="inputadm.php">&#169;</a> Друзья берегите растения!</p>
         </div>
         <div class="dop">
             <?php echo $resul["text-s"]?>
@@ -25,7 +25,7 @@ $resul = $mains->fetch(PDO::FETCH_ASSOC);
             <p class="otr"><?php echo $resul["phone"]?></p>
             <p></p><br>
             <div class="podder">
-                <p><?php echo $resul["help"]?></p>
+                <p><a href="./karta.php"><?php echo $resul["help"]?></a></p>
             </div>
         </div>
     </div>

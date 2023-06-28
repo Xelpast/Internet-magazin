@@ -306,7 +306,8 @@ h2 {
 }
 
 .rabota p {
-    margin: 0 auto;
+    margin: 5px 5px;
+    font-size: 20px;
 }
 
 .zena {
@@ -321,7 +322,7 @@ h2 {
     margin-top: 5px;
 }
 .v-korziny h3 {
-    background: #2761D2;
+    background: #31685e;
     border-radius: 6px;
     text-align: center;
     justify-content: center;
@@ -339,9 +340,12 @@ h2 {
 }
 
 .zenao {
-    background: #0e5246;
-    border-radius: 10px;
-    width: 58px;
+    background: #639791;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-self: center;
+    border-radius: 7px;
+    width: 64px;
     margin-right: 0px;
 }
 
@@ -679,4 +683,11 @@ p {
     background-color: black;
     border: 0 solid black;
     margin-top: 40px;
+}
+
+.karta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }

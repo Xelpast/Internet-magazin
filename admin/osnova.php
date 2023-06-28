@@ -21,18 +21,18 @@
     while($osnovas=$sql2->fetch(PDO::FETCH_OBJ)):?>
 
     
-    <form action="/admin/osnova/osnova.php/<?php echo $osnovas->id ?>" method="post" enctype="multipart/form-data">
-        <?php echo $osnovas->id?><br>
-        <input type="text" name="price" value="<?php echo $osnovas->price?>"><br>
-        <input type="text" name="pricez" value="<?php echo $osnovas->pricez?>"><br>
-        <input type="text" name="namer" value="<?php echo $osnovas->namer?>"><br>
+    <form class="ui-form" action="/admin/osnova/osnova.php/<?php echo $osnovas->id ?>" method="post" enctype="multipart/form-data">
+        <?php echo $osnovas->id?>
+        Основная цена<input type="text" name="price" value="<?php echo $osnovas->price?>"><br>
+        Предыдущая цена<input type="text" name="pricez" value="<?php echo $osnovas->pricez?>"><br>
+        Название цветов<input type="text" name="namer" value="<?php echo $osnovas->namer?>"><br>
         <p>
             <input type="file" name="im">
         </p>
+        <img src="/admin/img/<?php echo $osnovas->filenames?>" width="200px">
         <input type="submit" name="save" value="Сохранение...">
     </form>
 
-    <img src="/admin/img/<?php echo $osnovas->filenames?>" width="200px">
     <?php endwhile?>
 </div>
 </body>

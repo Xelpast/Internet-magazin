@@ -12,10 +12,10 @@
                     <input type="radio" name="r" id="r3">
                     <input type="radio" name="r" id="r4">
 
-                    <div class="slide s1"><img src="image/1.jpg" alt=""></div>
-                    <div class="slide"><img src="image/2.jpg" alt=""></div>
-                    <div class="slide"><img src="image/3.jpg" alt=""></div>
-                    <div class="slide"><img src="image/4.jpg" alt=""></div>
+                    <div class="slide s1"><img src="image/rek5.jpg" alt=""></div>
+                    <div class="slide"><img src="image/rek3.jpg" alt=""></div>
+                    <div class="slide"><img src="image/rek2.jpg" alt=""></div>
+                    <div class="slide"><img src="image/rek4.jpg" alt=""></div>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ $res = $sql->fetch(PDO::FETCH_ASSOC);
 ?>
 
 <div class="header">
-        <a href="#"><img src="image/logo.png" alt="СМОТРИ ВНИМАТЕЛЬНЕЙ" class="logo"></a>
+        <a href="home.php"><img src="image/logo.png" alt="СМОТРИ ВНИМАТЕЛЬНЕЙ" class="logo"></a>
 
         <div class="block1">
             <div class="kat1">
